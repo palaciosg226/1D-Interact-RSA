@@ -8,7 +8,7 @@ interval and on the dipole orientation chosen at each attempt.
 
 This repository contains:
 - `interact_rsa.m`: single-run RSA simulation (returns the number of deposited unit dipoles).
-- `run_replicas.m` (or your script file): parameter scan over interval length `x` with many replicas
+- `explore_final.m` (or your script file): parameter scan over interval length `x` with many replicas
   (uses `parfor` if available) and saves results to a MAT file.
 
 ## Requirements
@@ -19,4 +19,4 @@ This repository contains:
 
 1. Clone/download the repository and open MATLAB in this folder.
 2. Make sure `interact_rsa_final.m` is on the MATLAB path (placing it in the same folder is enough).
-3. Run the replica driver script: explore final.m
+3. Run the replica driver script: explore_final.m
